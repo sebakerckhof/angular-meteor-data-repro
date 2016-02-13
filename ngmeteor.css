@@ -1,0 +1,23 @@
+
+
+foo-list{
+    display:flex;
+    width:100%;
+}
+
+foo-list ul{
+    width:200px;
+}
+
+foo-list ul li{
+    cursor:pointer;
+}
+
+foo-list ul li.selected{
+    color:red;
+    font-weight:bold;
+}
+
+foo-list foo-details{
+    flex:1
+}
